@@ -6,7 +6,6 @@ git branch -M main
 git remote add origin https://github.com/FerterH/django.git
 git push -u origin main
 
-
  django-admin startproject taskmanager
 PS C:\Users\IT-12\PycharmProjects\Django> cd .\taskmanager\
 PS C:\Users\IT-12\PycharmProjects\Django\taskmanager> python manage.py runserver
@@ -18,9 +17,12 @@ python manage.py makemigrations создать миграции для созд�
 python manage.py migrate
 
 python manage.py createsuperuser для создания админского пользователя
-
 зарегистрировать табличку в админе f
 rom  .models import Task
 admin.site.register(Task)
 
+Что бы раздать доступ на свой сайт
+в settings.py, ALLOWED_HOSTS = ['*']
+Что бы узнать свой IP-adres "Win + R = cmd"
+Ipconfig, ipv4
 '''
