@@ -3,7 +3,7 @@ git init
 git add .
 git commit -m "first commit"
 git branch -M main
-git remote add origin https://github.com/FerterH/django.git
+git remote add origin https://github.com/Maxim1111111111/Django-main.git
 git push -u origin main
 
  django-admin startproject taskmanager
@@ -21,7 +21,7 @@ python manage.py createsuperuser для создания админского п
 rom  .models import Task
 admin.site.register(Task)
 
-Что бы раздать доступ на свой сайт
+Что бы раздать доступ(в локальной сети) на свой сайт
 в settings.py, ALLOWED_HOSTS = ['*']
 Что бы узнать свой IP-adres "Win + R = cmd"
 Ipconfig, ipv4

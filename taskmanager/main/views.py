@@ -1,5 +1,6 @@
 from django.shortcuts import render
-from  .models import Task, Country
+
+from .models import Task, Country
 
 
 def index(request):
